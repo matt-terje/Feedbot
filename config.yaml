@@ -1,0 +1,61 @@
+app:
+  title: "D&T Feedback Assistant"
+  disclaimer: "Feedback is automated using teacher-provided criteria and examples. For final grades and personalised guidance, see your teacher."
+
+rubrics:
+  micromelon_journal:
+    label: "Micromelon Engineering Journal (20 marks)"
+    criteria:
+      - id: "planning"
+        name: "Planning & Iteration"
+        desc: "Clear goals, versioning, evidence of iterative improvement."
+        weight: 5
+      - id: "technical"
+        name: "Technical Accuracy"
+        desc: "Correct use of Micromelon concepts, sensors/servos, and debugging."
+        weight: 7
+      - id: "communication"
+        name: "Communication & Evidence"
+        desc: "Readable logs, photos/diagrams, code snippets with comments."
+        weight: 4
+      - id: "reflection"
+        name: "Reflection & Next Steps"
+        desc: "Explains what worked, what didn’t, and a concrete next step."
+        weight: 4
+
+  rise_and_shine_portfolio:
+    label: "Rise & Shine Portfolio (20 marks)"
+    criteria:
+      - id: "label_design"
+        name: "Label Design & Target Market Fit"
+        desc: "Aesthetics, compliance, clarity, suitability for adolescents."
+        weight: 6
+      - id: "recipe_fit"
+        name: "Recipe & Nutrition Fit"
+        desc: "Low sugar, high fibre, rationale for ingredient choices."
+        weight: 6
+      - id: "folio_quality"
+        name: "Folio Quality & Detail"
+        desc: "Process, sketches, trials, sensory notes, evaluation."
+        weight: 6
+      - id: "reflection"
+        name: "Reflection"
+        desc: "Strengths, areas for improvement, next iteration plan."
+        weight: 2
+
+exemplars:
+  micromelon_journal:
+    high: |
+      Excerpt of a high-quality journal: clear objective, photos of builds, code with comments…
+    mid: |
+      Excerpt of a mid-quality journal: some logs, limited debugging notes…
+    low: |
+      Excerpt of a low-quality journal: sparse evidence, little iteration…
+
+  rise_and_shine_portfolio:
+    high: |
+      Excerpt of a high-quality portfolio: label mockups, nutrition table, sensory testing grid…
+    mid: |
+      Excerpt of a mid-quality portfolio: label draft, minimal rationale…
+    low: |
+      Excerpt of a low-quality portfolio: limited evidence and reflection…
