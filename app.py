@@ -4,7 +4,7 @@ from typing import Dict, Any, List
 
 # ---- Model client (OpenAI-style). Swap to your preferred provider if needed.
 from openai import OpenAI
-client = OpenAI(api_key=os.getenv("OPENAI_API_KEY"))
+client = OpenAI(api_key=os.getenv("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"))
 
 # ---- Load config
 with open("config.yaml", "r", encoding="utf-8") as f:
